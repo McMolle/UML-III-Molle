@@ -15,6 +15,6 @@ namespace UML_III_Molle
         public MenuType Type { get; set; }
         public bool IsVegan { get; set; }
         public bool IsOrganic { get; set; }
-        string PrintInfo();
+        public string PrintInfo();
     }
 }

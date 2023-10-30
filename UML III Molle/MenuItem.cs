@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UML_III_Molle
 {
-    public class MenuItem : IMenuItem
+    public abstract class MenuItem : IMenuItem
     {
         public int Number { get; set; }
         public string Name { get; set; }
@@ -29,11 +29,11 @@ namespace UML_III_Molle
 
         public virtual string PrintInfo()
         {
-            return "Info print";
+            return "MenuItem class print info";
         }
         public override string ToString()
         {
-            return base.ToString();
+            return "MenuItem class tostring";
         }
     }
 }

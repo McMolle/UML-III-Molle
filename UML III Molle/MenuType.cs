@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace UML_III_Molle
 {
-    public enum MenuType { SoftDrink, Pizza }
+    public enum MenuType { Beverage, Pizza }
 }
